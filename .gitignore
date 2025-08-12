@@ -1,6 +1,9 @@
+# Project Specific
+uv.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -25,6 +28,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.chainlit/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -47,6 +51,7 @@ nosetests.xml
 coverage.xml
 *.cover
 *.py.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
 cover/
@@ -205,3 +210,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Vercel
+.vercel
