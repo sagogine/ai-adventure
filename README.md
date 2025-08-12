@@ -1,2 +1,2 @@
 # ai-adventure
-AI Bootcamp repository
+AI Bootcamp repository - This repo is created to work on bootcamp
